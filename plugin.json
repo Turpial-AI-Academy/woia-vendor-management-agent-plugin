@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "woia-vendor-management",
+  "version": "0.5.0",
+  "description": "Evidence-preserving vendor qualification quotes selection and performance",
+  "author": {
+    "name": "Turpial AI Academy",
+    "url": "https://github.com/Turpial-AI-Academy"
+  },
+  "homepage": "https://github.com/Turpial-AI-Academy/woia-vendor-management-agent-plugin",
+  "repository": "https://github.com/Turpial-AI-Academy/woia-vendor-management-agent-plugin",
+  "license": "MIT",
+  "keywords": ["agent-plugin", "woia-vendor-management"]
+}
