@@ -2,7 +2,7 @@ import {begin,finish,requireValue,ownKeys,approval,digest} from './guard.mjs';
 export const actions=["vendor.search","vendor.read","vendor.qualify","vendor.quote.record","vendor.quote.compare","vendor.selection.record","vendor.performance.record"];
 const writes=actions.filter(a=>!["vendor.search","vendor.read","vendor.quote.compare"].includes(a));
 export const initial=organization=>({organization,revision:0,operations:{},history:[],vendors:{}});
-export function execute(state,q){const c=begin(state,q,actions,writes);if(c.replay)return {state:c.next,result:c.replay};
+export function execute(state,q){q=structuredClone(q);const c=begin(state,q,actions,writes);if(!c.read)requireValue(q.authority.department==='Vendor Management','VENDOR_MANAGEMENT_ONLY');  if(c.replay)return {state:c.next,result:c.replay};
  const vendors=c.next.vendors??={};let r=vendors[q.target];
  if(q.action==='vendor.search')return finish(c,q,Object.values(vendors).filter(x=>q.authority.resources.includes(x.person_ref)).map(x=>({person_ref:x.person_ref,qualification:x.qualification})));
  if(q.action==='vendor.read'){requireValue(r,'VENDOR_NOT_FOUND');return finish(c,q,structuredClone(r))}
