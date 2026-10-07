@@ -40,3 +40,9 @@ mise run ci:fast
 mise run ci:extended
 mise run release:check
 ~~~
+
+## W1 provider implementation
+
+Vendor qualification/quote/selection/performance references shared Identity. Original quote/performance evidence is immutable. Selection/preference never authorizes contracts/payment/work acceptance. External vendor contact must use Customer Service/Communications; this provider sends nothing.
+
+[Portable operation contract](skills/woia-vendor-management/references/contract.md). Import execute/initial from skills/woia-vendor-management/scripts/provider.mjs. No backend or live adapter is qualified. Public fixtures are synthetic; authenticated host must resolve current policies and persist transitions atomically with revision fencing.

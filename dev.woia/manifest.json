@@ -1,0 +1,22 @@
+{
+  "schema": "dev.woia.provider-manifest/v1",
+  "name": "woia-vendor-management",
+  "capability": "vendor-management",
+  "version": "0.5.0",
+  "origin": "native",
+  "authoring_profile": "thin",
+  "actions": [
+    "vendor.search",
+    "vendor.read",
+    "vendor.qualify",
+    "vendor.quote.record",
+    "vendor.quote.compare",
+    "vendor.selection.record",
+    "vendor.performance.record"
+  ],
+  "support": {
+    "deterministic_contract": "implemented",
+    "storage_adapter": "NOT_QUALIFIED",
+    "external_effects": "unsupported"
+  }
+}
