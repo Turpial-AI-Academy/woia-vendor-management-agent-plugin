@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "woia-vendor-management",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "Evidence-preserving vendor qualification quotes selection and performance",
   "author": {
     "name": "Turpial AI Academy",
