@@ -15,7 +15,6 @@ The plugin adapts to the repository it operates on without requiring the consume
 ~~~text
 plugin.json
 README.md
-CHANGELOG.md
 LICENSE
 skills/**
 # optional source diagnostic when retained by the repository
@@ -41,7 +40,7 @@ mise run ci:extended
 mise run release:check
 ~~~
 
-## W1 provider implementation
+## provider implementation
 
 Vendor qualification/quote/selection/performance references shared Identity. Original quote/performance evidence is immutable. Selection/preference never authorizes contracts/payment/work acceptance. External vendor contact must use Customer Service/Communications; this provider sends nothing.
 
