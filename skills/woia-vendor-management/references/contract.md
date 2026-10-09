@@ -1,6 +1,5 @@
 # woia-vendor-management operation contract
 
-Sources: Real Estate ADR-0026, ADR-0027, ADR-0029, ADR-0030; docs21/22/24/25 at eb0a7278188b2f9968e21ed4299f08184d864cac.
 
 Vendor qualification/quote/selection/performance references shared Identity. Original quote/performance evidence is immutable. Selection/preference never authorizes contracts/payment/work acceptance. External vendor contact must use Customer Service/Communications; this provider sends nothing.
 
